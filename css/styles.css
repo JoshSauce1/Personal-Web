@@ -37,6 +37,10 @@ display: block;
    transition-duration: 0.4s;
    cursor: pointer;
  }
+ .button a{
+   text-decoration: none;
+   color: white;
+ }
 
  .button1 {
   background-color: #990000;
@@ -102,6 +106,7 @@ text-decoration: none;
 
 /* Style rules for main content */
 main {
+
 padding: 7%;
 background-color: #cfcfcf;
 overflow: auto;
@@ -109,6 +114,10 @@ font-family: Verdana, Arial, sans-serif;
 }
 main p {
 font-size: 1.25em;
+}
+
+body{
+
 }
 .action {
 font-size: 1.25em.
