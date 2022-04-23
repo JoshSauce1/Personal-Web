@@ -104,6 +104,33 @@ padding: 0.5em 1em;
 text-decoration: none;
 }
 
+
+/* Style rules for table */
+table {
+ border: 1px solid #373684;
+ border-collapse: collapse;
+ margin: 0 auto;
+ width: 100%;
+ }
+ caption {
+ font-size: 1.5em;
+ font-weight: bold;
+ padding: 1%;
+ }
+ th, td {
+ border: 1px solid black;
+ padding: 2%;
+ }
+ th {
+ background-color: #990000;
+ color: #fff;
+ font-size: 1.15em;
+}
+tr:nth-child(odd) {
+ background-color: #b35f5f;
+
+ }
+
 /* Style rules for main content */
 main {
 
@@ -137,6 +164,11 @@ width: 100%
 footer a {
 color: black;
 text-decoration: none;
+}
+
+#contact {
+  text-align: center;
+
 }
 
 /* Media Query for Tablet Viewport */
