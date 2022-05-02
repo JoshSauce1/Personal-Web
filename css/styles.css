@@ -57,7 +57,7 @@ display: block;
 
 .column {
   float: left;
-  width: 33.33%;
+  width: auto;
   padding: 50px;
 }
 
@@ -92,7 +92,7 @@ list-style-type: none;
 text-align: center;
 }
 nav li {
-display: inline-block;
+display: block;
 font-size: 2em;
 border-top: 1px solid #e5e9fc;
 }
@@ -206,6 +206,11 @@ text-decoration: none;
  .mobile {
  display: none;
  }
+ .column {
+
+   width: auto;
+
+ }
  /* Tablet Viewport: Style rule for header content */
  span.tab-desk {
  display: inline;
@@ -240,6 +245,12 @@ nav li a{
 
 @media screen and (min-width: 769px), print {
 
+
+  .column {
+
+    width: 33.33%;
+
+  }
 
 /* Desktop Viewport: Style rule for header. */
 
