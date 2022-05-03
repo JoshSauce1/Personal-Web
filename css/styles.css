@@ -144,8 +144,15 @@ font-size: 1.25em;
 }
 
 body{
-
+position: relative;
 }
+
+body::after {
+  content: '';
+  display: block;
+  height: 100px; /* Set same as footer's height */
+}
+
 .action {
 font-size: 1.25em;
 color: #373684;
@@ -181,16 +188,18 @@ text-align: center;
 
 background-color: #999999;
 width: 100%;
-position: fixed;
-   left: 0;
+
+position: absolute;
+
    bottom: 0;
    width: 100%;
 
    color: white;
    text-align: center;
+   height: 100px;
 }
 footer a {
-color: black;
+color: white;
 text-decoration: none;
 }
 
