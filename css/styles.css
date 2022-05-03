@@ -68,6 +68,12 @@ display: block;
   display: table;
 }
 
+.pm {
+  padding: 7%;
+  background-color: #cfcfcf;
+  overflow: auto;
+  font-family: Verdana, Arial, sans-serif;
+}
 /* Style rules for header content */
 header {
 
@@ -139,6 +145,8 @@ background-color: #cfcfcf;
 overflow: auto;
 font-family: Verdana, Arial, sans-serif;
 }
+
+
 main p {
 font-size: 1.25em;
 }
@@ -177,7 +185,7 @@ font-size: 1.25em.}
    display: block;
    padding:2%;
    background-color: #990000;
-   color: #f6eee4;
+   color: black;
    font-size: 1.25em;
    border-radius:10px;}
 
