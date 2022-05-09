@@ -74,17 +74,27 @@ display: block;
   overflow: auto;
   font-family: Verdana, Arial, sans-serif;
 }
-/* Style rules for header content */
-header {
 
-text-align: center;
-font-size: 1.5em;
-color: #000000;
-background-color: #cfcfcf;
-font-family: Arial, Helvetica, sans-serif;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-header h1 {
+/* Style rules for header content */
+header {
+  display: block;
+overflow: auto;
+text-align: center;
+font-size: 1.5em;
+font-family: 'Source Sans Pro', sans-serif;
+background-color: #cfcfcf;
+
+
+}
+
+header h4 {
+  font-family: 'Marck Script', Cursive;
 
 }
 
@@ -92,6 +102,8 @@ header h1 {
 nav {
 background-color: #990000;
 }
+
+
 
 nav ul {
 list-style-type: none;
@@ -153,7 +165,9 @@ font-size: 1.25em;
 
 body{
 position: relative;
+overflow: auto;
 }
+
 
 body::after {
   content: '';
@@ -173,7 +187,7 @@ fieldset, input, textarea{
   margin-bottom: 2%;}
  fieldset legend{
    font-weight:bold;
-font-size: 1.25em.}
+font-size: 1.25em;}
  label{
    display:block;
    padding-top: 2%;
@@ -299,6 +313,5 @@ nav li a:hover {
 }
 
 .body{
-  background color: #fff;
   color: #000;
 }
