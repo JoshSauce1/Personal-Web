@@ -101,6 +101,7 @@ header h4 {
 /* Style rules for navigation area */
 nav {
 background-color: #990000;
+backdrop-filter: blur(20px);
 }
 
 
@@ -305,7 +306,7 @@ nav li a:hover {
   background-color: #999999;
 }
 
-/* Desktop Viewport: Style rules for main content */
+
 
 }
 
