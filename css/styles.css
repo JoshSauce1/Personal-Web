@@ -101,7 +101,6 @@ header h4 {
 /* Style rules for navigation area */
 nav {
 background-color: #990000;
-backdrop-filter: blur(20px);
 }
 
 
@@ -267,6 +266,7 @@ nav li a{
   padding-bottom: .25em;
   padding-right: .5em;
   padding-left: .5em;
+  height: 50px;
 }
 
 
@@ -286,19 +286,16 @@ nav li a{
 
 /* Desktop Viewport: Style rule for header. */
 
-header{
-  padding: .25%;
-
-}
 
 
 /* Desktop Viewport: Style rules for nav area.  */
 
 nav li a {
-  padding-top: .5em;
+  padding-top: 1.5em;
   padding-bottom: .5em;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  height: 50px;
 }
 
 nav li a:hover {
