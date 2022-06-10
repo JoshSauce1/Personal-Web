@@ -203,6 +203,10 @@ font-size: 1.25em;}
    font-size: 1.25em;
    border-radius:10px;}
 
+   #submit:hover{
+     color: white;
+   }
+
 
 /* Style rules for footer content */
 footer {

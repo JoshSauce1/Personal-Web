@@ -21,7 +21,7 @@ Joshua Abreu: Personal Portfolio
 
 <div class = "tab-desk">
 	<header>
-	
+
 	</header>
 </div>
 
@@ -54,8 +54,8 @@ Joshua Abreu: Personal Portfolio
 
 </div>
 
-
-	<form class="form-grid"><!-- Start Form -->
+<div class= "form-grid">
+	<form onsubmit="sendEmail(); reset(); return false;">
  <fieldset>
 	 <legend> Information </legend>
 	 <label for="fName">First Name:</label>
@@ -66,13 +66,14 @@ Joshua Abreu: Personal Portfolio
  <input type="email" name="email" id="email">
  <label for="phone">Phone:</label>
  <input type="tel" id="phone" name="phone">
+ <input type="submit"
+  id="submit"
+  value="Submit"
+  class="btn">
  </fieldset>
 
 </form>
-<input type="submit"
- id="submit"
- value="Submit"
- class="btn">
+
 
 
 
@@ -81,6 +82,23 @@ Joshua Abreu: Personal Portfolio
     <p>Made by me :)</p>
 <p> <a href= "mailto:joshuaabreu16@gmail.com"> Email: Joshuaabreu16@gmail.com </a> </p>
 	</footer>
+>
 
+<script src= "https:smtpjs.comv3/smtp.js"</script>
+<script>
+funtion sendEmail(){
+	Email.send({
+    Host : "smtp.gmail.com",
+    Username : "joshuaabreu16@gmail.com",
+    Password : "Joshuaepic",
+    To : 'joshuaabreu16@gmail.com',
+    From : document.getElementbyId("email").value,
+    Subject : "New Contact Form Inquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
+ </script>
 </body>
 </html>
